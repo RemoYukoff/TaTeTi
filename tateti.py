@@ -16,7 +16,7 @@ class Tablero():
 
 #Clase celda maneja cada celda
 class Celda():
-    #Variable para saber quien juega x=0 Juega cruz / x=1 Juega circulo
+    #Variable para saber quien juega turn=0 Juega cruz / turn=1 Juega circulo
     turn=0
     def __init__(self,app,row,column):
         self.canvas=Canvas(app,width=200,height=200,bg="black")
